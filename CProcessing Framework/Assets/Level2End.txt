@@ -1,0 +1,3 @@
+INFO: Cubot hears *oinks* ahead.@
+CUBOT: That must be the pig that fox mentioned.@
+CUBOT: Lets see if I can get some clues.@

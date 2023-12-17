@@ -1,0 +1,13 @@
+CUBOT: Pig, I finally found you.@
+PIG: Yes how may I help you?@
+CUBOT: I am detective Cubot here to investigate a case.@
+CUBOT: Chick's house has been broken into.@
+PIG: That's horrible! How may i assist you?@
+CUBOT: Fox claims to have seen you walking around@
+CUBOT: With a huge sack, and spending a lot recently.@
+PIG: Do you suspect me?@
+PIG: My relatives from afar has visited me recently.@
+PIG: I have been spending more on food.@
+PIG: The large sack if probably that.@
+CUBOT: I see, thank you for your cooperation.@
+CUBOT: As I thought, the Fox was the culprit afterall.@

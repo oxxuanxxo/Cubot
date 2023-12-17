@@ -1,0 +1,5 @@
+CHICK: Detective Cubot HELP!@
+CHICK: Someone broke into my house and stole all my money!@
+CUBOT: Do you have any clues who it might be?@
+CHICK: No, I have searched for days with no results at all!@
+CUBOT: Don't worry, I am on the case!@

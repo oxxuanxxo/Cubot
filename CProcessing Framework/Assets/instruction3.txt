@@ -1,0 +1,3 @@
+INFO: BEWARE!!!!@
+INFO: Enemies ahead@
+INFO: Use SPACE to dash and defeat the enemies or avoid them@

@@ -1,0 +1,3 @@
+INFO: Cubot found some gold coins.@
+CUBOT: Hmmmm looks like the culprit dropped these.@
+CUBOT: The culprit must be ahead!@

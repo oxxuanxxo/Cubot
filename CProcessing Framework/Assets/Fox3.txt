@@ -1,0 +1,4 @@
+FOX: STOP! I give up!@
+FOX: It was me! I broke into Chick's house!@
+CUBOT: I knew it!@
+FOX: I will return Chick the money and turn myself in.@

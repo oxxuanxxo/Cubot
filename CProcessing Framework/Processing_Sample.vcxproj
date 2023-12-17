@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Camera\Camera.c" />
+    <ClCompile Include="Source\Characters\Bullet.c" />
+    <ClCompile Include="Source\Characters\Character.c" />
+    <ClCompile Include="Source\Characters\EnemyBounce.c" />
+    <ClCompile Include="Source\Characters\EnemyCircle.c" />
+    <ClCompile Include="Source\Characters\EnemySpikes.c" />
+    <ClCompile Include="Source\Characters\EnemyTriangle.c" />
+    <ClCompile Include="Source\Characters\EnemyTurret.c" />
+    <ClCompile Include="Source\Characters\NPC.c" />
+    <ClCompile Include="Source\Characters\Player.c" />
+    <ClCompile Include="Source\Dialogue\DialogueBox.c" />
+    <ClCompile Include="Source\main.c" />
+    <ClCompile Include="Source\Misc\BoxCollider.c" />
+    <ClCompile Include="Source\Misc\VariableList.c" />
+    <ClCompile Include="Source\Render\Particle.c" />
+    <ClCompile Include="Source\Render\ParticleSystem.c" />
+    <ClCompile Include="Source\Render\Renderer.c" />
+    <ClCompile Include="Source\Render\RenderUtil.c" />
+    <ClCompile Include="Source\Scenes\Credits.c" />
+    <ClCompile Include="Source\Scenes\Digipen.c" />
+    <ClCompile Include="Source\Scenes\GameOver.c" />
+    <ClCompile Include="Source\Scenes\HowToPlay.c" />
+    <ClCompile Include="Source\Scenes\MainMenu.c" />
+    <ClCompile Include="Source\Scenes\MapEditor.c" />
+    <ClCompile Include="Source\Scenes\Parallax.c" />
+    <ClCompile Include="Source\Scenes\Stage1.c" />
+    <ClCompile Include="Source\Scenes\Stage2.c" />
+    <ClCompile Include="Source\Scenes\Stage3.c" />
+    <ClCompile Include="Source\Scenes\Stage4.c" />
+    <ClCompile Include="Source\Scenes\TestScene.c" />
+    <ClCompile Include="Source\Scenes\Transition.c" />
+    <ClCompile Include="Source\Scenes\TutorialScene.c" />
+    <ClCompile Include="Source\Scenes\WinScene.c" />
+    <ClCompile Include="Source\Sound\Sound.c" />
+    <ClCompile Include="Source\Tiles\TileMap.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\Camera\Camera.h" />
+    <ClInclude Include="Source\Characters\Bullet.h" />
+    <ClInclude Include="Source\Characters\Character.h" />
+    <ClInclude Include="Source\Characters\EnemyBounce.h" />
+    <ClInclude Include="Source\Characters\EnemyCircle.h" />
+    <ClInclude Include="Source\Characters\EnemySpikes.h" />
+    <ClInclude Include="Source\Characters\EnemyTriangle.h" />
+    <ClInclude Include="Source\Characters\EnemyTurret.h" />
+    <ClInclude Include="Source\Characters\NPC.h" />
+    <ClInclude Include="Source\Characters\Player.h" />
+    <ClInclude Include="Source\Dialogue\DialogueBox.h" />
+    <ClInclude Include="Source\GlobalDefine.h" />
+    <ClInclude Include="Source\Misc\BoxCollider.h" />
+    <ClInclude Include="Source\Misc\VariableList.h" />
+    <ClInclude Include="Source\Render\Particle.h" />
+    <ClInclude Include="Source\Render\ParticleSystem.h" />
+    <ClInclude Include="Source\Render\Renderer.h" />
+    <ClInclude Include="Source\Render\RenderUtil.h" />
+    <ClInclude Include="Source\Scenes\Credits.h" />
+    <ClInclude Include="Source\Scenes\Digipen.h" />
+    <ClInclude Include="Source\Scenes\GameOver.h" />
+    <ClInclude Include="Source\Scenes\HowToPlay.h" />
+    <ClInclude Include="Source\Scenes\MainMenu.h" />
+    <ClInclude Include="Source\Scenes\MapEditor.h" />
+    <ClInclude Include="Source\Scenes\Parallax.h" />
+    <ClInclude Include="Source\Scenes\Stage1.h" />
+    <ClInclude Include="Source\Scenes\Stage2.h" />
+    <ClInclude Include="Source\Scenes\Stage3.h" />
+    <ClInclude Include="Source\Scenes\Stage4.h" />
+    <ClInclude Include="Source\Scenes\TestScene.h" />
+    <ClInclude Include="Source\Scenes\Transition.h" />
+    <ClInclude Include="Source\Scenes\TutorialScene.h" />
+    <ClInclude Include="Source\Scenes\WinScene.h" />
+    <ClInclude Include="Source\Sound\Sound.h" />
+    <ClInclude Include="Source\Tiles\Tile.h" />
+    <ClInclude Include="Source\Tiles\TileMap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Processing_Sample.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\PlayerIcon.ico" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{14B654ED-D716-460A-8335-22E3EDB70027}</ProjectGuid>
+    <RootNamespace>ProcessingSample</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SolutionDir)CProcessing\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)CProcessing\lib\x86\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(SolutionDir)CProcessing\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)CProcessing\lib\x86\;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)CProcessing\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)CProcessing\lib\x64\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)CProcessing\inc\;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)CProcessing\lib\x64\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <CompileAs>CompileAsC</CompileAs>
+      <PreprocessorDefinitions>_MBCS;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>_CONSOLE</UndefinePreprocessorDefinitions>
+      <CallingConvention>Cdecl</CallingConvention>
+      <AdditionalOptions>/wd4100 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>CProcessing.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)CProcessing\lib\x86\CProcessing.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)CProcessing\lib\x86\fmod.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)Assets\*" "$(OutDir)Assets\" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <CompileAs>CompileAsC</CompileAs>
+      <PreprocessorDefinitions>_MBCS;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>_CONSOLE</UndefinePreprocessorDefinitions>
+      <CallingConvention>Cdecl</CallingConvention>
+      <AdditionalOptions>/wd4100 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>CProcessing.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)CProcessing\lib\x86\CProcessing.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)CProcessing\lib\x86\fmod.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)Assets\*" "$(OutDir)Assets\" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <CompileAs>CompileAsC</CompileAs>
+      <PreprocessorDefinitions>_MBCS;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>_CONSOLE</UndefinePreprocessorDefinitions>
+      <CallingConvention>Cdecl</CallingConvention>
+      <AdditionalOptions>/wd4100 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>CProcessing.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)CProcessing\lib\x64\CProcessing.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)CProcessing\lib\x64\fmod.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)Assets\*" "$(OutDir)Assets\" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <CompileAs>CompileAsC</CompileAs>
+      <PreprocessorDefinitions>_MBCS;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>_CONSOLE</UndefinePreprocessorDefinitions>
+      <CallingConvention>Cdecl</CallingConvention>
+      <AdditionalOptions>/wd4100 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>CProcessing.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)CProcessing\lib\x64\CProcessing.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)CProcessing\lib\x64\fmod.dll" "$(OutDir)" /s /r /y /q
+xcopy "$(ProjectDir)Assets\*" "$(OutDir)Assets\" /s /r /y /q</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
